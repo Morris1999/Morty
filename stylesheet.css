@@ -1,0 +1,71 @@
+/* For the whole page */
+html {
+  font-size: 62.5%;
+  font-family: Roboto;
+  text-decoration: none !important;
+}
+
+/* Variables */
+:root { --main-green: #CEC940; }
+:root { --main-green-border: #9b983c; }
+:root { --main-orange: #F9B10D; }
+:root { --main-orange-border: #C78D0A; }
+
+/*Header*/
+header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leftContainer {
+margin-right: auto;
+flex-basis: 40%;
+}
+
+.leftContainer img {
+  max-width: 55%;
+  min-width: 15rem;
+  height: auto;
+  margin-left: 3vw;
+  margin-top: 0.5vw;
+}
+
+.rightContainer {
+  margin-left: auto;
+  margin-right: auto;
+  flex-basis: 60%;
+
+}
+
+.navContainer li {
+  background-color: var(--main-green);
+  border-radius: 3px 3px 3px 3px;
+  border-bottom: 0.25vw solid var(--main-green-border);
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  display: inline-block;
+  margin-top: 0.70vw;
+  margin-right: 0.75vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+ }
+
+ .navContainer a {
+  text-decoration: none;
+  font-family: Roboto, serif;
+  color: white;
+  font-size: calc(10px + 0.5vw)
+}
+
+  #whyChoose {
+  background-color: var(--main-orange);
+  border-bottom-color: var(--main-orange-border);
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+}
